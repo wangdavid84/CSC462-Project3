@@ -1,0 +1,8 @@
+CSC462 project description
+
+We would like to create a 3D environment, including a Townhouse, a waterfall, a mountain, and a lake.
+We would include a fireworks effects. Inside the house, we will set up furniture as a real world house does. 
+A camera can go (up, down, left, right), and rotate the view( look up, look down, look right, look left). 
+We choose unity 3D as implementation platform. C# language as program language. The effects contains: 
+Occlusion culling, Global Illumination, Reflection, Bump mapping, Flock and particles, Terrain rendering, Fluid and goo, Animation. \
+
