@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: e7894b534b4989646a843a7b326c7427
+  m_OcclusionCullingData: {fileID: 36300000, guid: 036aa206c3091c944ac64046229a5ccd,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -123,6 +124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeAcaciaB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 273.58
@@ -191,6 +196,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
       propertyPath: m_Name
       value: TreeAcaciaB
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -340,6 +349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallSavannaB
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82424bd6542874a35b8cd837f171615e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82424bd6542874a35b8cd837f171615e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 296.95
@@ -409,6 +422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeAcaciaB (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b8ae1fe522144f7888402b17f5284a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 367.18057
@@ -465,6 +482,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33148e9ffe61c45e1b4cc76e93b334c6, type: 3}
       propertyPath: m_Name
       value: TreeAcaciaA
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33148e9ffe61c45e1b4cc76e93b334c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33148e9ffe61c45e1b4cc76e93b334c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -591,6 +612,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 82424bd6542874a35b8cd837f171615e, type: 3}
       propertyPath: m_Name
       value: SmallSavannaB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82424bd6542874a35b8cd837f171615e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82424bd6542874a35b8cd837f171615e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -733,13 +758,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360453016}
-  m_LocalRotation: {x: 0.0059094285, y: 0.23656246, z: -0.0017677173, w: 0.9715967}
-  m_LocalPosition: {x: 236.1, y: 44.2, z: 199.3}
+  m_LocalRotation: {x: 0.006124733, y: 0.39930126, z: -0.00073063344, w: 0.916799}
+  m_LocalPosition: {x: 46.3, y: 62.9, z: 102.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0.70600003, y: 27.368002, z: -0.037}
+  m_LocalEulerAnglesHint: {x: 0.67700005, y: 47.071003, z: 0.20400001}
 --- !u!114 &1360453021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,6 +1032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Abandoned House
       objectReference: {fileID: 0}
+    - target: {fileID: 194322, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 424194, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 321.4
@@ -1051,6 +1080,94 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 147684, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 175918, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 145494, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 121998, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 144808, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 183916, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 176992, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 169814, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 173744, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 118114, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 124302, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 108886, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 116896, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 179608, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 143880, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 110126, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 129956, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 181792, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 165470, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 177954, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 154872, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 113338, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c5798b7c0e44194da73c74f8f9ad09f, type: 3}
 --- !u!1001 &1682212015
@@ -1063,6 +1180,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 70545e90e33ff4d439418b623de5b048, type: 3}
       propertyPath: m_Name
       value: SmallSavannaA
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 70545e90e33ff4d439418b623de5b048, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70545e90e33ff4d439418b623de5b048, type: 3}
       propertyPath: m_LocalPosition.x
